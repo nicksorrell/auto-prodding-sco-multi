@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="AFE980F6-DD3A-11DA-9B41-B622A1EF5495" version="1.98.3 beta" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd    http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd    http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd   http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd   http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <adlcp:location>packagemetadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="C98978EA-DD3A-11DA-9B41-B622A1EF5492">
+    <organization identifier="C98978EA-DD3A-11DA-9B41-B622A1EF5492" structure="hierarchical" adlseq:objectivesGlobalToSystem="false">
+      <title>SCORM Diagnostic Multi-SCO</title>
+        <item identifier="DB4B88FC-DD3A-11DA-9B41-B622A1EF54920" identifierref="EA10429C-DD3A-11DA-9B41-B622A1EF5492">
+          <title>SCORM Diagnostic SCO</title>
+		  <adlcp:dataFromLMS>0</adlcp:dataFromLMS>
+          <imsss:sequencing>
+            <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true " />
+          </imsss:sequencing>
+        </item>
+        <item identifier="DB4B88FC-DD3A-11DA-9B41-B622A1EF54922" identifierref="EA10429C-DD3A-11DA-9B41-B622A1EF5492">
+          <title>SCORM Diagnostic SCO</title>
+		  <adlcp:dataFromLMS>1</adlcp:dataFromLMS>
+          <imsss:sequencing>
+            <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true " />
+          </imsss:sequencing>
+        </item>
+        <item identifier="DB4B88FC-DD3A-11DA-9B41-B622A1EF54921" identifierref="EA10429C-DD3A-11DA-9B41-B622A1EF5492">
+          <title>SCORM Diagnostic SCO</title>
+		  <adlcp:dataFromLMS>2</adlcp:dataFromLMS>
+          <imsss:sequencing>
+            <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true " />
+          </imsss:sequencing>
+        </item>
+      <imsss:sequencing>
+        <imsss:controlMode flow="true" choice="false" choiceExit="false" />
+          <imsss:rollupRules objectiveMeasureWeight="1.0000" />
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="EA10429C-DD3A-11DA-9B41-B622A1EF5492" adlcp:scormType="sco" href="proddingsco2exam.htm" type="webcontent">
+      <file href="proddingsco2exam.htm" />
+    </resource>
+  </resources>
+</manifest>
+
